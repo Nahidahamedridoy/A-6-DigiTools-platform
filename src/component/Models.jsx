@@ -2,10 +2,10 @@ import { use  } from "react";
 import { LiaAngleRightSolid } from "react-icons/lia";
 import ModelCard from "./ModelCard";
 
-const Models = ({ modelPromise }) => {
+const Models = ({ modelPromise , carts , setCarts}) => {
 
     const models = use(modelPromise)
-    console.log(models);
+    // console.log(models);
 
     
 
@@ -21,7 +21,7 @@ const Models = ({ modelPromise }) => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
                 {
                     models.map((model) =>(
-                        <ModelCard model={model}/>
+                        <ModelCard key={model.id} model={model} carts={carts} setCarts={setCarts}/>
                     ))}
             </div>
 

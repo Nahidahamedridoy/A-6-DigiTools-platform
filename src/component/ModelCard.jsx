@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
-const ModelCard = ({model}) => {
+const ModelCard = ({model , carts , setCarts}) => {
 
     const [isBuy , setIsBuy] = useState(false)
 
     const handleBuy =() =>{
         setIsBuy(true)
+        setCarts([...carts, model])
+        toast.success("Item Added Successfully")
     }
 
     return (
