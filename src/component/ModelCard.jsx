@@ -19,12 +19,13 @@ const ModelCard = ({model , carts , setCarts}) => {
     }
 
     return (
-        <div className="shadow-lg rounded-lg border  border-zinc-300">
+        <div className="shadow-lg rounded-lg border  border-zinc-300 p-5">
             <div className="flex ">
-                <div className=" p-8 border border-zinc-300 rounded-full">
-                    <img className="h-6 w-6 " src={model.icon} alt="" />
+                <div className=" p-4  border border-zinc-300 rounded-full">
+                    <img className="h-10 w-10 " src={model.icon} alt="" />
                 </div>
             </div>
+            {model.tagType}
 
             <div className="p-4 space-y-4">
                 <h2 className="text-2xl font-bold">{model.name}</h2>

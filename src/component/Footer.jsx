@@ -1,3 +1,5 @@
+import { FaFacebook, FaSquareInstagram, FaXTwitter } from "react-icons/fa6";
+
 const Footer = () => {
   return (
     <footer className="bg-zinc-950 border-t border-red-900/50 pt-16 pb-10">
@@ -14,7 +16,7 @@ const Footer = () => {
 
             <p className="text-zinc-400 text-lg max-w-md">
               Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
-            </p> 
+            </p>
           </div>
 
           {/* Quick Links */}
@@ -49,7 +51,7 @@ const Footer = () => {
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
-                  About 
+                  About
                 </a>
               </li>
               <li>
@@ -85,33 +87,47 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                 Community
+                  Community
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                 Contact
+                  Contact
                 </a>
               </li>
             </ul>
           </div>
 
-        {/* icons */}
-        <div>
-          <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
-          <p></p>
+          {/* icons */}
+          <div>
+            <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
+            <div className="flex justify-between gap-5">
+              <div class="bg-purple-50 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <FaSquareInstagram />
+            </div>
+            <div class="bg-purple-50 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <FaFacebook />
+            </div>
+            <div class="bg-purple-50 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-6">
+              <FaXTwitter />
+            </div>
+            </div>
+          </div>
         </div>
-        </div>  
 
 
-        
+
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
           <div>© {new Date().getFullYear()} Digitools. All rights reserved.</div>
 
           <div className="flex gap-6">
             <a href="#" className="hover:text-red-400 transition">
-              ..............
+              <ul className="flex space-x-4 text-zinc-400">
+                <li>Privacy Policy </li>
+                <li>Terms of Service</li>
+                <li>  Cookies</li>
+              </ul>
             </a>
           </div>
         </div>
