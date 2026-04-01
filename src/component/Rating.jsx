@@ -1,0 +1,30 @@
+import React from 'react';
+
+const Rating = () => {
+    return (
+        <div>
+            <section class="bg-[#8b2cf5] py-12 px-6">
+                <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-around items-center text-white gap-8 md:gap-0">
+
+                    <div class="text-center flex-1 md:border-r border-white/20 last:border-none">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-2">50K+</h2>
+                        <p class="text-lg opacity-80">Active Users</p>
+                    </div>
+
+                    <div class="text-center flex-1 md:border-r border-white/20 last:border-none">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-2">200+</h2>
+                        <p class="text-lg opacity-80">Premium Tools</p>
+                    </div>
+
+                    <div class="text-center flex-1">
+                        <h2 class="text-4xl md:text-5xl font-bold mb-2">4.9</h2>
+                        <p class="text-lg opacity-80">Rating</p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    );
+};
+
+export default Rating;
