@@ -26,7 +26,7 @@ Explore Products
             <button className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] transition-all px-5 py-3 rounded-full font-semibold text-lg shadow-xl  flex items-center gap-3 group text-white">
               Explore Products
             </button>
-            <button className="btn px-5 py-6 rounded-full font-semibold text-lg shadow-xl  flex items-center gap-3 group text-[#4F39F6]"> Watch Demo</button>
+            <button className="btn btn-outline  px-5 py-6 rounded-full font-semibold text-lg shadow-xl  flex items-center gap-3 group text-[#4F39F6]"><img src="/src/assets/Play.png" alt="" />Watch Demo</button>
           </div>
         </div>
 

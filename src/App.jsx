@@ -6,6 +6,8 @@ import { Suspense, useState } from 'react'
 import Card from './component/Card'
 import Pricing from './component/Pricing'
 import Footer from './component/Footer'
+import CtSection from './component/CtSection'
+import StepsSection from './component/StepsSection'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -36,8 +38,9 @@ function App() {
       {activeTab === "products" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts} />}
 
       {activeTab === "cart" && <Card carts={carts} setCarts={setCarts} />}
-
+      <StepsSection/>
       <Pricing/>
+      <CtSection/>
       <Footer/>
     </>
   )
