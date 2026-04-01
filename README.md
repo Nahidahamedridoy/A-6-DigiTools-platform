@@ -1,16 +1,19 @@
-# React + Vite
+#Name of  Project
+DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#A little Description
+DigiTools Platform is a modern AI-based tools and package platform where users can explore different AI-related applications and digital service packages.
+This platform provides various premium packages with useful features like templates, monthly updates, and commercial licenses to help users improve productivity and digital workflow.
+The goal of this project is to create a user-friendly digital tools platform where users can easily browse, explore, and select different AI and digital service packages.
 
-Currently, two official plugins are available:
+#Technology that i used
+React.js
+Tailwind CSS
+DaisyUI
+JavaScript
+HTML5
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#3 Features about my project.
+1. There have many Ai tools
+2.2000+ Templates ,Monthly Updates, Premium AI Tools , Full Support
+3. Dashboard system , Package purchase system etc.
