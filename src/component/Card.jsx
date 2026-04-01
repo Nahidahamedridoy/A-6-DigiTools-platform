@@ -17,7 +17,7 @@ const Card = ({ carts , setCarts}) => {
     }
     
     return (
-        <div className=''>
+        <div className='p-10 max-w-7xl mx-auto'>
             <h1 className='text-2xl font-bold'>Your Cart</h1>
 
             {

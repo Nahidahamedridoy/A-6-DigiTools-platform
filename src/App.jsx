@@ -4,6 +4,8 @@ import Navbar from './component/Navbar'
 import Models from './component/Models'
 import { Suspense, useState } from 'react'
 import Card from './component/Card'
+import Pricing from './component/Pricing'
+import Footer from './component/Footer'
 
 const getModels = async () => {
   const res = await fetch("/models.json")
@@ -35,6 +37,8 @@ function App() {
 
       {activeTab === "cart" && <Card carts={carts} setCarts={setCarts} />}
 
+      <Pricing/>
+      <Footer/>
     </>
   )
 }
