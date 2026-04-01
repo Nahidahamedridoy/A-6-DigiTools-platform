@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { toast } from 'react-toastify';
 
-const ModelCard = ({model , carts , setCarts}) => {
+const ModelCard = ({ model, carts, setCarts }) => {
 
-    const [isBuy , setIsBuy] = useState(false)
+    const [isBuy, setIsBuy] = useState(false)
 
-    const handleBuy =() =>{
+    const handleBuy = () => {
         setIsBuy(true)
 
-        const isFound = carts.find(item => item.id ===model.id)
-        if(isFound) {
+        const isFound = carts.find(item => item.id === model.id)
+        if (isFound) {
             toast.error("Item already in cart")
             return
         }
@@ -20,12 +20,20 @@ const ModelCard = ({model , carts , setCarts}) => {
 
     return (
         <div className="shadow-lg rounded-lg border  border-zinc-300 p-5">
+
+            <div className="relative">
+                <div className={`absolute top-3 right-3 inline-flex gap-2 ${model.tagType === "popular" ? "bg-red-200" :`${model.tagType ==="new" ? "bg-green-200" : "bg-yellow-200"}`} border border-zinc-200  text-[#4F39F6] text-sm font-medium px-5 py-2 rounded-full`}>
+                    {model.tagType}
+                </div>
+            </div>
+
             <div className="flex ">
                 <div className=" p-4  border border-zinc-300 rounded-full">
                     <img className="h-10 w-10 " src={model.icon} alt="" />
                 </div>
             </div>
-            {model.tagType}
+
+
 
             <div className="p-4 space-y-4">
                 <h2 className="text-2xl font-bold">{model.name}</h2>

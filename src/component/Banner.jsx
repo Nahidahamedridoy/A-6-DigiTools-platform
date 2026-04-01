@@ -8,7 +8,7 @@ const Banner = () => {
         {/* Left Content */}
         <div className="space-y-4">
           <div className="inline-flex items-center gap-2 bg-[#E1E7FF] border border-[#4F39F6] text-[#4F39F6] text-sm font-medium px-5 py-2 rounded-full">
-            <FaRegCircleDot /> New: AI-Powered Tools Available      
+            <FaRegCircleDot /> New: AI-Powered Tools Available
           </div>
 
           <h1 className="text-6xl lg:text-5xl font-bold leading-tight tracking-tighter ">
@@ -19,8 +19,8 @@ const Banner = () => {
 
           <p className="text-lg text-[#627382] max-w-lg">
             Access premium AI tools, design assets, templates, and productivity
-software—all in one place. Start creating faster today.
-Explore Products
+            software—all in one place. Start creating faster today.
+            Explore Products
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">

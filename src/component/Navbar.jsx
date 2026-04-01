@@ -30,7 +30,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-end gap-5">
                     <div className="flex gap-4">
-                        <span className="text-2xl"><LuShoppingCart /></span>
+                        <span  className="text-2xl"><LuShoppingCart /></span>
                         <button className="text-xl font-semibold">Login</button>
                     </div>
                     <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">Get Started</a>
