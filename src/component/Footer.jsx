@@ -101,14 +101,14 @@ const Footer = () => {
           {/* icons */}
           <div>
             <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
-            <div className="flex justify-between gap-5">
-              <div class="bg-purple-50 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="flex justify-between gap-5 ">
+              <div class="bg-purple-50  flex items-center justify-center mx-auto mb-6">
               <FaSquareInstagram />
             </div>
-            <div class="bg-purple-50 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div class="bg-purple-50  flex items-center justify-center mx-auto mb-6">
               <FaFacebook />
             </div>
-            <div class="bg-purple-50 w-10 h-10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div class="bg-purple-50  flex items-center justify-center mx-auto mb-6">
               <FaXTwitter />
             </div>
             </div>
